@@ -12,10 +12,21 @@ This project implements a **Retrieval-Augmented Generation (RAG)** system that a
 - Ollama installed
 - Model `Qwen2.5` pulled via Ollama
 
-### Installation
+##  Setup Guide
+
+### Tools, Libraries, Packages
+- Ollama ( Local LLM runner )
+- Qwen2.5	(Multilingual LLM for generation)
+- LangChain	(RAG pipeline)
+- PyPDFLoader	(PDF content extraction)
+- Sentence-Transformers	(Embedding model)
+- Chroma	(Vector database)
+- PromptTemplate	(Controlled LLM prompt design)
 
 ```bash
 sudo apt-get install -y curl
 curl -fsSL https://ollama.ai/install.sh | sh
 pip install ollama
 pip install langchain langchain-community langchain-ollama pypdf sentence-transformers chromadb
+
+
